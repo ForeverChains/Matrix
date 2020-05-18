@@ -1,0 +1,1 @@
+../../../YYKit/_Headers/UIPasteboard+YYText.h

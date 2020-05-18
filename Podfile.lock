@@ -1,0 +1,77 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.4)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - IQKeyboardManager (6.5.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.17)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Bugly
+  - CocoaAsyncSocket (~> 7.4.3)
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.12)
+  - ReactiveObjC (~> 3.1.0)
+  - SDWebImage (~> 4.1.0)
+  - YYKit
+
+SPEC REPOS:
+  "git@git.guahao-inc.com:iOS-Public/WYPodRepo/MainBinary.git":
+    - AFNetworking
+    - Masonry
+    - YYKit
+  https://github.com/CocoaPods/Specs.git:
+    - Bugly
+    - CocoaAsyncSocket
+    - IQKeyboardManager
+    - MBProgressHUD
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 579d095a8c595a49cde80bd6835ddbc09d96ac93
+  Bugly: 4edda9bb0e3017fd453612189069757195fa23ca
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  Masonry: b61c75511fa00d6c485bf7e08eb9e83b6448aa55
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  YYKit: 87b9f2004eab1c40edcdf79967939475bf7740ad
+
+PODFILE CHECKSUM: fcd74d617e599e84593b1720ba4978c4d93084ea
+
+COCOAPODS: 1.8.4
